@@ -20,11 +20,7 @@ function Tabs() {
       </div>
       <div className="viewport">
         Pages Go Here
-        <div>
-        {activeTab === "Home" && <p>Home content goes here</p>}
-        {activeTab === "About" && <p>About content goes here</p>}
-        {activeTab === "Features" && <p>Features content goes here</p>}
-        </div>
+       
       </div>
     </div>
   );
