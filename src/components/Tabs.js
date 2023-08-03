@@ -9,13 +9,13 @@ function Tabs() {
 
   return (
     <div className="tabs">
-      <div className="tab" id="Home-tab" onClick={() => handleTabClick("Home")}>
+      <div className="tab" id="Home-Tab" onClick={() => handleTabClick("Home")}>
         Home
       </div>
-      <div className="tab" id="About-tab" onClick={() => handleTabClick("About")}>
+      <div className="tab" id="About-Tab" onClick={() => handleTabClick("About")}>
         About
       </div>
-      <div className="tab" id="Features-tab" onClick={() => handleTabClick("Features")}>
+      <div className="tab" id="Features-Tab" onClick={() => handleTabClick("Features")}>
         Features
       </div>
       <div className="viewport">
