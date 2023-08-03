@@ -20,7 +20,6 @@ function Tabs() {
       </div>
       <div className="viewport">
         Pages Go Here
-       
       </div>
     </div>
   );
